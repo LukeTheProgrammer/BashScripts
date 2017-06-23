@@ -1,0 +1,38 @@
+#! /bin/bash
+
+BLACK='\033[0;30m'
+DARKGRAY='\033[1;30m'
+RED='\033[0;31m'
+LIGHTRED='\033[1;31m'
+GREEN='\033[0;32m'
+LIGHTGREEN='\033[1;32m'
+BROWNORANGE='\033[0;33m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+LIGHTBLUE='\033[1;34m'
+PURPLE='\033[0;35m'
+LIGHTPURPLE='\033[1;35m'
+CYAN='\033[0;36m'
+LIGHTCYAN='\033[1;36m'
+LIGHTGRAY='\033[0;37m'
+WHITE='\033[1;37m'
+NOCOLOR='\033[0m'
+
+printf "${BLACK} BLACK \n"
+printf "${DARKGRAY} DARKGRAY \n"
+printf "${RED} RED \n"
+printf "${LIGHTRED} LIGHTRED \n"
+printf "${GREEN} GREEN \n"
+printf "${LIGHTGREEN} LIGHTGREEN \n"
+printf "${BROWNORANGE} BROWNORANGE \n"
+printf "${YELLOW} YELLOW \n"
+printf "${BLUE} BLUE \n"
+printf "${LIGHTBLUE} LIGHTBLUE \n"
+printf "${PURPLE} PURPLE \n"
+printf "${LIGHTPURPLE} LIGHTPURPLE \n"
+printf "${CYAN} CYAN \n"
+printf "${LIGHTCYAN} LIGHTCYAN \n"
+printf "${LIGHTGRAY} LIGHTGRAY \n"
+printf "${WHITE} WHITE \n"
+printf "${NOCOLOR} NOCOLOR \n"
+
